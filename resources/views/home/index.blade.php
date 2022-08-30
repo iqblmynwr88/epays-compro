@@ -10,7 +10,7 @@
     <meta content="" name="keywords">
   
     <!-- Favicons -->
-    <link href="/img/favicon.png" rel="icon">
+    <link href="/img/logo.png" rel="icon">
     <link href="/img/apple-touch-icon.png" rel="apple-touch-icon">
   
     <!-- Google Fonts -->
@@ -35,7 +35,8 @@
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="index.html">E-Pays</a></h1>
+      {{-- <h1 class="logo me-auto"><a href="index.html">E-Pays</a></h1> --}}
+      <img src="/img/logo.png" class="logo me-auto" style="width: 100px">
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
