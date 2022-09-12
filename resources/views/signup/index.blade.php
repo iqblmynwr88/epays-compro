@@ -56,7 +56,7 @@
                                         </div>
                                         <button class="btn btn-success btn-block btn-user mb-3" type="submit" onclick="$('.isi-container').hide();$('.page-loader1').show()"><i class="fa fa-sm fa-right-to-bracket"></i> Sign Up!</button>
                                         <center>
-                                            <small>Already have account? <a href="{{ url('signin') }}" style="text-decoration: none;color:teal">Login</a></small>
+                                            <small>Already have account? <a href="{{ url('dashboard') }}" style="text-decoration: none;color:teal">Login</a></small>
                                         </center>
                                         <hr class="mt-5">
                                     </form>
