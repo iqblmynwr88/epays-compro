@@ -19,4 +19,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/',[ContentWebController::class, 'index']);
 Route::get('/signup',[SignUpController::class, 'index']);
 Route::post('/pendaftaran',[SignUpController::class, 'auth']);
-Route::get('/dashboard', function () { return redirect('http://10.20.10.163:91/dashboard');});
+Route::get('/dashboard', function () { return redirect('https://dashboardpos.e-pays.co.id/');});
